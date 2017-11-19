@@ -5,6 +5,7 @@ mod problem3;
 mod problem4;
 mod problem5;
 mod problem6;
+mod problem7;
 mod utils;
 
 fn main() {
@@ -19,5 +20,6 @@ fn main() {
     //println!("Solution: {}", problem3::solve(13195));
     //println!("Reversed: {}", utils::number::reverse(9009));
     //println!("Solution: {}", problem5::solve(20));
-    println!("Solution: {}", problem6::solve(100));
+    //println!("Solution: {}", problem6::solve(100));
+    println!("Solution: {}", problem7::solve(10001));
 }
