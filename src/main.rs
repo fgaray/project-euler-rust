@@ -2,6 +2,7 @@
 mod problem1;
 mod problem2;
 mod problem3;
+mod problem4;
 mod utils;
 
 fn main() {
@@ -12,6 +13,8 @@ fn main() {
     //println!("Hola");
     //println!("Solution: {}", problem2::solve(4000000));
     //println!("Prime: {}", utils::prime::is_prime(67));
-    println!("Solution: {}", problem3::solve(600851475143));
+    //println!("Solution: {}", problem3::solve(600851475143));
     //println!("Solution: {}", problem3::solve(13195));
+    //println!("Reversed: {}", utils::number::reverse(9009));
+    println!("Solution: {}", problem4::solve());
 }
